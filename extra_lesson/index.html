@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!--  <div class="container">-->
+<!--    <h2>Currency Converter</h2>-->
+<!--    <input type="number" id="sum" />-->
+<!--    <div class="currency">-->
+<!--      <input type="checkbox" id="currency" />-->
+<!--      <label for="currency">USD</label>-->
+<!--    </div>-->
+<!--    <div class="result">-->
+<!--      <div class="currency-result id="visiblity-block">-->
+<!--        <div class="currency-country">$</div>-->
+<!--        <div class="currency-result-sum">2</div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<div class="container">
+    <h1>Currency Converter</h1>
+
+    <input type="number" id="amount" />
+    <label for="amount"></label>
+
+    <div class="currency-container">
+        <div>
+          <input type="checkbox" id="usd" />
+          <label for="usd">🇺🇸USD</label>
+        </div>
+        <div>
+          <input type="checkbox" id="eur" />
+          <label for="eur">🇪🇺EUR</label>
+        </div>
+        <div>
+          <input type="checkbox" id="rub" />
+          <label for="rub">🇷🇺RUB</label>
+        </div>
+    </div>
+
+<div class="result-container">
+    <div id="results"></div>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
